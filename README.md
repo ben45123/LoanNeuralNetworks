@@ -8,19 +8,7 @@ marital status, education, loan amount, loan term, credit history, and property 
 Dataset:
 The dataset used in this project is stored in a CSV file named loan_data.csv. It contains the following columns:
 
-Gender
-Married
-Dependents
-Education
-Self_Employed
-ApplicantIncome
-CoapplicantIncome
-LoanAmount
-Loan_Amount_Term
-Credit_History
-Property_Area
-Loan_Status
-Preprocessing
+[Gender, Married, Dependents, Education, Self_Employed, ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History, Property_Area, Loan_Status, Preprocessing]
 
 Missing values in the dataset were handled using mode imputation.
 Categorical variables were converted to numerical using label encoding.
