@@ -24,8 +24,8 @@ Min-max scaling was applied to normalize the features.
 Early stopping was used to prevent overfitting during training.
 
 Results:
-The model achieved a f1 score of .90. Unforunately, it was no amazing at predicting who would not recieive a loan, but was perfectin predicting who would recieve a loan.
-Additionally, the loss went from loss 0.7336 to 0.4123 to and the validation loss went from 0.7424 to 0.3773 in 197 epochs before earlystopping was activated to minimize overtraining.
+The model achieved a f1 score of .90. Unforunately, it was not amazing at predicting who would not recieive a loan, but was perfect in predicting who would recieve a loan.
+Additionally, the loss went from loss 0.7336 to 0.4123 to and the validation loss went from 0.7424 to 0.3773 in 197 epochs before early stopping was activated to minimize overtraining.
 
 Usage:
 In order to use this model, download the LoanNeuralNetworkds.ipynb, and download the loan_data.csv in this repository. You can run it on colab or vscode, and should get similar results.
